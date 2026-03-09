@@ -191,22 +191,6 @@ res_fp <- run_simulation_FP(
 print(res_fp)
 ```
 
-## Repository structure
-
-A suggested structure for the repository is:
-
-```text
-.
-├── R/
-│   ├── Simulation_function.R
-│   ├── Simulation_FP_function.R
-│   └── Functions_collection.R
-├── README.md
-└── ...
-```
-
-If your current structure differs, update this section to reflect the exact file layout in the repository.
-
 ## Notes for reproducibility
 
 The simulation code uses `set.seed(20250819)` in the main scripts. For fully reproducible results, make sure that:
